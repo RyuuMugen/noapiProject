@@ -1,0 +1,37 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  max-height: 200px;
+  display: block;
+  .flexBox {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    .imgNews {
+      position: relative;
+      width: 35%;
+      img {
+        height: 100%;
+        width: 100%;
+        max-height: 180px;
+        object-fit: fill;
+        border-radius: 12px;
+      }
+    }
+    .infoNews {
+      width: 65%;
+      .title {
+        color: #1f2123;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      .description {
+        font-size: 14px;
+        color: #7a7a7a;
+        font-weight: 400;
+      }
+    }
+  }
+}

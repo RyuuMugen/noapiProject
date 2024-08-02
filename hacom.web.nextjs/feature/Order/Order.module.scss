@@ -1,0 +1,126 @@
+.leftBox {
+  width: 75%;
+}
+
+.rightBox {
+  width: 25%;
+}
+
+.orderLeft {
+  border: 1px solid #d6e4f0;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.orderLeft2 {
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.topicNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #1f2123;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.addressBox {
+  width: 380px;
+  height: 300px;
+  border: 1px solid #d6e4f0;
+  border-radius: 12px;
+  padding: 21px 30px;
+}
+
+.addressBox ul li {
+  font-size: 14px;
+  margin-right: 60px;
+  margin-bottom: 5px;
+}
+
+.addressBox ul li::marker {
+  color: #6782aa;
+  font-size: 18px;
+  border-radius: 50%; /* Để tạo thành hình tròn */
+  display: inline-block; /* Để chấm tròn không làm thay đổi dòng chữ */
+  margin-right: 5px;
+}
+
+.delivery {
+  width: 303px;
+  height: 70px;
+  border: 1px solid #d6e4f0;
+  border-radius: 8px;
+}
+
+.deliveryActive {
+  position: relative;
+  border: 1px solid #1f67d2;
+  color: #1f67d2;
+}
+
+.bgCheck {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  transform: translate(-50% -50%);
+  display: none;
+}
+
+.checkMark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50% -50%);
+  display: none;
+}
+
+.deliveryActive .bgCheck,
+.deliveryActive .checkMark {
+  display: block;
+}
+
+.deliveryIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e5effe;
+}
+
+.deliveryTitle {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 14px;
+}
+.iconstyle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.typeDeliveryBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.ntDelivery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0px;
+  .delivery {
+    width: 200px;
+    height: 70px;
+    border: 1px solid #d6e4f0;
+    border-radius: 8px;
+  }
+}

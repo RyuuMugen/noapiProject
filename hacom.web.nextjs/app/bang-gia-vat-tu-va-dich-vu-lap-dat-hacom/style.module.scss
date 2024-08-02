@@ -1,0 +1,40 @@
+.headerBox {
+  width: 100%;
+  height: 565px;
+  background-image: url(https://hanoicomputercdn.com/media/lib/07-07-2023/bgheader.png);
+  background-repeat: repeat;
+  background-position: center;
+}
+.header {
+  overflow: hidden;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerTitle {
+  width: 60%;
+  padding-left: 12%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 60px;
+}
+.headerImage {
+  width: 40%;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+.bottomPage {
+  background-color: #13097e;
+  text-align: center;
+  padding: 60px 0;
+  width: 100%;
+  margin-top: 40px;
+}
+.bottomPage a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}

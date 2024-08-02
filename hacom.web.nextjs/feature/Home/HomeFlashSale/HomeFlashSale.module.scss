@@ -1,0 +1,13 @@
+.saleBackground {
+  background-image: url("../../../assets//salebackgroud.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.95);
+  height: auto;
+  border-radius: 12px;
+  margin-top: 40px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

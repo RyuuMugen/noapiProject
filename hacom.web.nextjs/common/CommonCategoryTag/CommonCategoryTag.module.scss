@@ -1,0 +1,24 @@
+.categoryTag {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  color: #0052cc;
+  &:hover {
+    color: red;
+  }
+}
+.allTag {
+  cursor: pointer;
+  font-size: 15;
+  color: #0052cc;
+  font-weight: 700;
+}
+
+.viewAll {
+  cursor: pointer;
+  &:hover {
+    p {
+      color: red;
+    }
+  }
+}

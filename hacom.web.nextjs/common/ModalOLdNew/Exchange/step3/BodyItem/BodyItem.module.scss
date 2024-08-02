@@ -1,0 +1,20 @@
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.main > div:nth-child(4n) > div {
+  margin-right: 0px;
+}
+.main > div > div {
+  margin-right: 25px;
+}
+.scroll {
+  width: 1000px;
+  height: 403px;
+  overflow-y: scroll;
+  border-bottom: 0.5px solid #d3def0;
+}
+
+

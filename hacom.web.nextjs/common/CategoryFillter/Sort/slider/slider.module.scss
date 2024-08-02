@@ -1,0 +1,43 @@
+.gridbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  .p {
+    width: 15%;
+  }
+  .slider {
+    width: 70%;
+    margin-top: -35px;
+  }
+  .button {
+    width: 15%;
+    font-size: 12px;
+  }
+}
+.gridbox > * {
+  text-align: left;
+}
+.label {
+  padding: 0;
+  color: #787878;
+  size: 13px;
+}
+
+.p {
+  font-size: 14px;
+  p {
+    margin: 0;
+  }
+}
+.gridbox {
+  padding-right: 10px;
+}
+
+.root {
+  padding: 13px 5px 0 5px;
+}
+
+.thumb {
+  background-color: #1f67d2;
+}

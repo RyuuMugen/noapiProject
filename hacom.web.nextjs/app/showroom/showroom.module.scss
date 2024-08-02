@@ -1,0 +1,223 @@
+.container {
+  width: calc(8 / 12 * 100%);
+  margin: 0 auto;
+}
+.backgroundTop {
+  width: 100%;
+  background: url("../../assets/showroom-bg-hero.jpg") 100% no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-bottom: 20px;
+  min-height: 522px;
+  .showroomTitle {
+    font-size: 50px;
+    padding-top: 155px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+  }
+}
+.backgroundMid {
+  width: 100%;
+  background: url("../../assets/showroom-bg-album.jpg") 100% no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-bottom: 20px;
+  min-height: 544px;
+  .showroomTitle {
+    font-size: 32px;
+    padding-top: 87px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+.backgroundMid1 {
+  width: 100%;
+  background: url("../../assets/showroomBackgroud.jpg") 100% no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-bottom: 20px;
+  min-height: 600px;
+  padding: 40px;
+  margin: 40px 0px;
+}
+.intro {
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #e7f4ff;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+}
+.introTop {
+  margin-top: -164px;
+  position: relative;
+
+  .boxIntro {
+    min-width: 380px;
+    min-height: 310px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px 0px #001e8729;
+    transition: all 0.3s;
+    padding-top: 45px;
+    &Icon {
+      background-color: #e8f1ff;
+      height: 95px;
+      width: 95px;
+      border-radius: 50%;
+      position: relative;
+      margin: auto;
+      img {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+      }
+    }
+    &Number {
+      font-size: 50px;
+      line-height: 36px;
+      color: #1f67d2;
+      margin-top: 36px;
+      margin-bottom: 14px;
+    }
+    &Title {
+      font-size: 18px;
+      line-height: 36px;
+      margin: 0;
+    }
+  }
+}
+.tabStores {
+  background-color: #e7f4ff;
+  padding-top: 90px;
+  &List {
+    gap: 15px;
+    justify-content: center;
+    &:before {
+      border-color: transparent;
+    }
+    &Button {
+      border: 1px solid #bdcbe3;
+      color: #1f2123;
+      font-size: 14px;
+      line-height: 36px;
+      background-color: #e3eeff;
+      border-radius: 6px;
+      padding: 0 29px;
+      &[data-active] {
+        background-color: #1f67d2;
+        color: #fff;
+      }
+    }
+  }
+  &Content {
+    text-align: center;
+    &Item {
+      &Name {
+        margin: 51px 0 33px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 32px;
+        color: #1f67d2;
+        text-transform: uppercase;
+      }
+      &Info {
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 45px;
+        &Col {
+          text-align: left;
+        }
+        &Title {
+          font-weight: 700;
+        }
+      }
+      &Position {
+        position: relative;
+        &Map,
+        &Image {
+          padding: 0;
+        }
+        &Map {
+          &Wrapper {
+            height: 100%;
+          }
+        }
+        &Image img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.coreValue {
+  width: 100%;
+  background: url("../../assets/showroom-bg-core-value.png") 100% no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-bottom: 20px;
+  min-height: 935px;
+  &Title {
+    padding-top: 84px;
+    padding-bottom: 50px;
+    color: #1f2123;
+    font-size: 32px;
+    text-align: center;
+    line-height: 37px;
+    font-weight: 700;
+  }
+  &List {
+    [class*="CommonIcon_main"] {
+      margin-bottom: 90px;
+    }
+
+    [class*="CommonIcon_card"] {
+      background-color: transparent;
+      transition: all 0.3s;
+      border: none;
+      [class*="CommonIcon_content"] {
+        margin-top: 0;
+        height: unset;
+      }
+      [class*="CommonIcon_title"] {
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 400;
+        color: #1f2123;
+      }
+      [class*="CommonIcon_circleIcon"] {
+        height: 95px;
+        width: 95px;
+        background-color: #e8f1ff;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &:hover {
+        border: none;
+        [class*="CommonIcon_title"] {
+          font-size: 15px;
+          line-height: 17px;
+          font-weight: 400;
+          color: #1f2123;
+        }
+      }
+    }
+  }
+}
+.controls {
+  justify-content: center;
+}

@@ -1,0 +1,53 @@
+.back {
+  color: #4281f7;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.box {
+  width: 60%;
+  min-width: 950px;
+  margin: 0px auto;
+  padding: 15px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1215686275);
+  border-radius: 5px;
+}
+.backBox {
+  width: 50%;
+  font-size: 14px;
+  margin: 0px auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.informationBox {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: solid 1px #f71c1c;
+  border-radius: 5px;
+}
+.cost {
+  font-weight: 700;
+  color: #f71c1c;
+}
+.linkbox {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  a {
+    text-decoration: none;
+  }
+}
+.homeBack {
+  text-decoration: none;
+  width: 378px;
+  line-height: 42px;
+  border: solid 1px #427ff3;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #427ff3;
+  text-align: center;
+  border-radius: 5px;
+}

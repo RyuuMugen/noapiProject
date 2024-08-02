@@ -1,0 +1,25 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  object-fit: contain;
+  object-position: center;
+  margin: 50px 0 5px 0;
+  border-radius: 12px;
+}
+
+.banner {
+  width: calc(33.33% - 10px);
+  box-sizing: border-box;
+  object-fit: contain;
+  height: 165px;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.banner:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}

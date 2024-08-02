@@ -1,0 +1,24 @@
+.main {
+  margin: 30px 5px 0px 10px;
+}
+
+.logoCard {
+  cursor: pointer;
+  width: 108px;
+  height: 44px;
+  background-color: #deeffd;
+  border: 0.5px solid #c3d5ee;
+  border-radius: 4px;
+  padding: 10px;
+}
+.logoCard:hover {
+  background-color: #d0e2ee;
+}
+
+.logo {
+  mix-blend-mode: darken;
+}
+.banner {
+  padding-right: 10px;
+  mix-blend-mode: darken;
+}

@@ -1,0 +1,235 @@
+.showroomTitle {
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  padding: 15px 0;
+  margin: 18px 0;
+}
+.showroomMapBox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.showroomBox {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.showroomMap {
+  width: 40%;
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+.showroomTitle::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20%;
+  background: white;
+  margin: auto;
+}
+.showroom {
+  width: 100%;
+  text-align: center;
+  background-color: #13097e;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+.select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.showroomList {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 450px;
+  overflow-x: hidden;
+  overflow-x: scroll;
+  padding: 10px;
+}
+.showroomContainer {
+  width: 99%;
+  margin-right: 1%;
+  padding: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.showroomContainer:hover {
+  background-color: #f4f4f4;
+  div > span > svg {
+    color: #ec1c24;
+  }
+  div > span > a > svg {
+    color: #ec1c24;
+  }
+}
+.selected {
+  width: 99%;
+  margin-right: 1%;
+  padding: 10px;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #f4f4f4;
+  div > span > svg {
+    color: #ec1c24;
+  }
+  div > span > a > svg {
+    color: #ec1c24;
+  }
+}
+.nameContainer {
+  display: flex;
+}
+.nameNumber {
+  display: inline-block;
+  background-color: #ed1b24;
+  font-weight: 700;
+  width: 31px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 3px 0 0 3px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.name {
+  text-decoration: none;
+  line-height: 44px;
+  color: #ec1c24;
+  border-radius: 0 3px 3px 0;
+  font-weight: 700;
+  font-size: 18px !important;
+  width: calc(100% - 31px);
+  font-size: 16px;
+}
+
+.showRoomAddress {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin: 6px 0px;
+  font-size: 14px;
+}
+.showRoomAddress > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.showRoomGallery {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+}
+.showRoomGallery a {
+  color: black !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.showRoomGallery > a > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.showRoomAddress2 a {
+  color: #ed1b24 !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.showRoomAddress2 > a > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.showRoomAddress2 {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+}
+
+.showRoomPhone {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+  font-size: 14px;
+}
+.showRoomPhone > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.showRoomOpeningTime {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+  font-size: 14px;
+}
+.showRoomOpeningTime > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.serviceBackground {
+  background-color: rgb(245, 249, 255);
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  padding: 30px 0px;
+}
+.flexService {
+  width: 100%;
+  display: flex;
+}
+.footerService {
+  width: 24%;
+  margin-right: 1%;
+  display: flex;
+  align-items: center;
+}
+.footerService > svg {
+  height: 50px;
+  width: 50px;
+  color: #ed1b24;
+  margin-right: 5px;
+}
+.serviceContent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.serviceTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.service {
+  font-size: 13px;
+}
+
+.showroomList::-webkit-scrollbar {
+  width: 8px; /* Độ rộng của thanh cuộn */
+}
+
+.showroomList::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Màu của thanh cuộn */
+  border-radius: 8px; /* Bo tròn viền thanh cuộn */
+}
+
+.showroomList::-webkit-scrollbar-thumb:hover {
+  background-color: #999; /* Màu của thanh cuộn khi hover */
+}

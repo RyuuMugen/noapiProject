@@ -1,0 +1,155 @@
+.monthGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.select {
+  padding: 8px 5px;
+  width: 82px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 14px;
+  position: relative;
+  border: solid 1px #ccc;
+  background-color: white;
+}
+.select:hover {
+  padding: 8px 5px;
+  width: 82px;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 14px;
+  position: relative;
+  border: solid 1px #f71c1c;
+  color: #4280f5;
+}
+.unSelect {
+  padding: 8px 5px;
+  width: 82px;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 14px;
+  position: relative;
+  border: solid 1px #f71c1c;
+  color: #4280f5;
+}
+.tableBox {
+  margin: 20px 0;
+}
+.table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table > tr > td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 10px;
+  font-size: 14px;
+}
+.table > tr:nth-child(even) {
+  background-color: rgb(250, 231, 231);
+}
+.table > tr:first-child {
+  background-color: #ee2e24;
+  color: white;
+  div {
+    display: flex;
+    gap: 5%;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.tableHead {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  padding: 10px;
+  span {
+    float: left;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+  }
+}
+
+.tableHead2 {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  span {
+    margin-left: -10%;
+    width: 80%;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+  }
+}
+.highlight {
+  color: #ee2e24;
+  font-weight: 700;
+}
+.link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333e48;
+  font-weight: 400;
+}
+.orderButton {
+  width: 100%;
+  float: left;
+  text-align: center;
+  border-radius: 5px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ee2e24),
+    to(#ff502d)
+  );
+  background: linear-gradient(90deg, #ee2e24, #ff502d);
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+.orderButton2 {
+  cursor: pointer;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 5px;
+  background: repeating-linear-gradient(
+    to right,
+    rgb(238, 55, 55) 0,
+    #00f 50%,
+    rgb(238, 55, 55) 100%
+  );
+  background-size: 200% auto;
+  background-position: 0 100%;
+  animation: 2s linear infinite forwards gradient;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  p {
+    margin: 0;
+  }
+  span {
+    text-transform: none;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

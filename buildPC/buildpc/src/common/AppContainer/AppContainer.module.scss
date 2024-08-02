@@ -1,0 +1,17 @@
+.root {
+  max-width: 1760px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  // Todo: Update responsive tablet
+  @media only screen and (max-width: 900px) {
+    padding: 0 32px;
+    max-width: 834px;
+  }
+
+  // Todo: Update responsive mobile
+  @media only screen and (max-width: 500px) {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}

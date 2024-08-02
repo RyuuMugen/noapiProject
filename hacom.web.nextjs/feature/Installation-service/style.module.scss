@@ -1,0 +1,33 @@
+.body {
+  margin-top: -84px;
+  width: 1200px;
+}
+.topic {
+  cursor: pointer;
+  display: block;
+  background: #fbfbfb;
+  color: #333;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  min-width: 220px;
+  text-align: center;
+}
+.topicWrap > div {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-right: 10px;
+}
+
+.topicActive {
+  background: #fff;
+  color: #ed1b24;
+  position: relative;
+  z-index: 99;
+}
+.topicTitle {
+  font-size: 1em;
+  font-weight: 700;
+}

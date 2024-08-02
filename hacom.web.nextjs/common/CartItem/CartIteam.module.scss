@@ -1,0 +1,150 @@
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.product > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product > div:last-child {
+  display: block;
+  padding-left: 30px;
+}
+
+.tablerow {
+  height: 54px;
+  background-color: #e9f3fd;
+  border-bottom: none;
+  border-radius: 11px;
+  border: 1px solid #d6e4f0;
+}
+.tablerow > th {
+  font-weight: 400;
+  color: #1f2123;
+  font-size: 13px;
+}
+.tablerow2 {
+  background-color: #e9f3fd;
+  border-radius: 11px;
+  border-bottom: none;
+}
+.tablerow2 > th {
+  padding: 10px 0px;
+}
+.table {
+  border-radius: 11px;
+  border: 1px solid #d6e4f0;
+}
+.deleteall {
+  cursor: pointer;
+}
+.deleteall > img {
+  margin-right: 5px;
+  margin-top: 1px;
+}
+.deletebuttom {
+  width: 65px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #c9c9c9;
+  margin-top: 5px;
+}
+.deletebuttom > img {
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.numinput > div {
+  border: 1px solid #6782aa;
+}
+.saleprice {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1f2123;
+}
+.price {
+  font-weight: 400;
+  font-size: 13px;
+  color: #787878;
+  padding-left: 5px;
+  text-decoration: line-through;
+}
+.imageContainer {
+  vertical-align: top;
+}
+.productinfo {
+  vertical-align: top;
+  padding-top: 20px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #303841;
+  line-height: 24px;
+}
+.productbox {
+  width: calc(60% - 160px);
+  padding-top: 13px;
+}
+.saletitle {
+  color: #1e5b98;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+.empty {
+  border: 1px solid #d6e4f0;
+  border-radius: 12px;
+  height: 180px;
+}
+.empty > div {
+  padding: 20px 40px;
+}
+.empty > div > p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.empty > div > span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #1f2123;
+}
+
+.empty > div > span > a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #0052cc;
+  padding-right: 5px;
+}
+.empty > div > span > a:last-child {
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.th1 {
+  width: 50%;
+}
+.th2 {
+  width: 15%;
+}
+.th3 {
+  width: 20%;
+}
+.dele {
+  p {
+    font-size: 14px;
+  }
+  img {
+    width: 13.91px;
+    height: 17px;
+  }
+}
+.deleteall > img {
+  margin-right: 7px;
+  margin-top: 1px;
+}

@@ -1,0 +1,126 @@
+.main {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  justify-content: center;
+  gap: 5px;
+  padding: 0px 5px;
+  color: white;
+  background: repeating-linear-gradient(
+    to right,
+    rgba(237, 38, 38, 1) 0,
+    rgba(255, 138, 138, 1) 25%,
+    rgb(243, 3, 3) 50%,
+    rgba(255, 138, 138, 1) 75%,
+    rgba(237, 38, 38, 1) 100%
+  );
+  animation: 4s linear infinite forwards gradient;
+  background-size: 200% auto;
+  background-position: 0 100%;
+  border-radius: 18px;
+
+  .time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .box {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .date {
+    display: none;
+  }
+  .dateSummary {
+    font-weight: 700;
+  }
+}
+
+.mainArrived {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  justify-content: center;
+  gap: 5px;
+  padding: 0px 5px;
+  color: white;
+  background: repeating-linear-gradient(
+    to right,
+    rgb(38, 84, 237) 0,
+    rgba(11, 239, 255) 25%,
+    rgb(3, 19, 243) 50%,
+    rgb(11, 239, 255) 75%,
+    rgba(38, 84, 237) 100%
+  );
+  animation: 4s linear infinite forwards gradient;
+  background-size: 200% auto;
+  background-position: 0 100%;
+  border-radius: 18px;
+
+  .time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .box {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .date {
+    display: none;
+  }
+  .dateSummary {
+    font-weight: 700;
+  }
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  // gap: 10px;
+  padding-left: 5px;
+  .space {
+    display: none;
+  }
+  .box {
+    display: flex;
+  }
+  .box > div:last-child {
+    color: white;
+    padding-left: 5px;
+  }
+  .date {
+    padding-left: 2px;
+  }
+  .time {
+    color: white;
+  }
+  .dateSummary {
+    display: none;
+  }
+}
+.dateDay {
+  padding-left: 2px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

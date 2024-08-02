@@ -1,0 +1,8 @@
+.vscode
+buildPC/manager-buildPc/node_modules/
+buildPC/buildpc/node_modules/
+hacom.client.web/node_modules/
+hacom.manager/node_modules/
+hacom.service.manager/node_modules/
+hacom.web.nextjs/node_modules/
+Project/

@@ -1,0 +1,52 @@
+.contact {
+  background-color: #f3faff;
+  padding: 14px 0;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+.main {
+  position: relative;
+  background-image: url("../../assets/service-bg-detail.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  .detailService {
+    &Title {
+      padding: 66px 0 50px;
+    }
+    &Top {
+      display: flex;
+      background-color: #fff;
+      box-shadow: 0px 0px 40px 0px #002a6924;
+      border: 1px solid #fff;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      padding: 60px;
+      &Left {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+      }
+      &Right {
+        width: 45%;
+        padding-left: 60px;
+      }
+    }
+    &Bottom {
+      background-color: #fff;
+      padding: 40px 60px;
+      margin-bottom: 30px;
+      border: 1px solid #d1ddec;
+      border-radius: 12px;
+    }
+  }
+}
+.ralatedService {
+  margin-top: 80px;
+  &Title {
+    margin-bottom: 30px;
+  }
+}
+
+

@@ -1,0 +1,10 @@
+.titleNews {
+  margin-bottom: 26px;
+}
+
+.bottomNewsList {
+  flex-wrap: wrap;
+  .bottomNewsItem {
+    width: calc(50% - 10px);
+  }
+}

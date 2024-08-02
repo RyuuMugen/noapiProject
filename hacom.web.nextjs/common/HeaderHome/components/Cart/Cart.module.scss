@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  height: 28px;
+  margin-right: 10px;
+}
+
+.product {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003f9c;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003f9c;
+}
+.icon {
+  position: relative;
+  cursor: pointer;
+  height: 29px;
+  width: 35px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f02c4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -6px;
+  right: 5px;
+  transform: translate(30%, 0);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  z-index: 1;
+}

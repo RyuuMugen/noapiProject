@@ -1,0 +1,51 @@
+@media (min-width: 1200px) {
+  .flexBox {
+    gap: 20px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .leftBox {
+    width: calc(15% - 10px);
+    border-radius: 12px;
+  }
+  .rightBox {
+    width: calc(85% - 10px);
+    //   background-color: white;
+    border-radius: 12px;
+    padding: 10px 10px;
+    height: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 800px) {
+  .flexBox {
+    gap: 20px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+  .leftBox {
+    width: 100%;
+    border-radius: 12px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .rightBox {
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 10px;
+    height: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+}

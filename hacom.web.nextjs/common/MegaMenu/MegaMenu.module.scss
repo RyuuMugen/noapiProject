@@ -1,0 +1,87 @@
+.root {
+  height: 100%;
+  border-radius: 12px;
+  position: relative;
+  z-index: 99;
+}
+
+.inner {
+  height: 100%;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.menu {
+  width: 100%;
+  padding: 0;
+  padding-right: 10px;
+}
+.listMenu {
+  height: 100%;
+  background-color: #1f67d2;
+  height: 775px;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 5px 6px 0px #000a614d;
+}
+.items {
+  height: 43px;
+  position: relative;
+  padding: 5px 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.items:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 22px;
+  right: 22px;
+  border-bottom: 0.5px solid #5398ff;
+}
+.text {
+  font-size: 14px;
+}
+.iconMenuHover {
+  height: 100%;
+  display: none;
+}
+
+.hoveredItem {
+  background-color: #0f52b5;
+  cursor: pointer;
+  .iconMenuHover {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(30%);
+  }
+}
+
+.subMenu {
+  background-color: #f2f7ff;
+  height: 775px;
+  padding: 0px 0px 0px 20px;
+  margin-left: -21px;
+}
+.subMenu > div > div {
+  align-items: flex-start;
+}
+
+.banner {
+  padding-top: 0px;
+  padding-left: 10px;
+  height: 775px;
+}
+.bannerBox > div {
+  height: 795px;
+}
+.subMenu > div {
+  padding: 0px;
+}
+.demoMenu {
+  display: flex;
+  gap: 20px;
+}

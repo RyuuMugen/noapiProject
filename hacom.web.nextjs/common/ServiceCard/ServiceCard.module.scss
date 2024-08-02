@@ -1,0 +1,20 @@
+.item {
+    &Image {
+        position: relative;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    &Info {
+        padding: 30px;
+        &Rating {
+            margin-bottom: 17px;
+        }
+        &Title {
+            display: inline-block;
+            margin-bottom: 26px;
+            text-decoration: none;
+        }
+    }
+}

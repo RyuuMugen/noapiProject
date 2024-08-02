@@ -1,0 +1,86 @@
+.main {
+  margin-bottom: 50px;
+}
+
+.customerInfo {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin-top: 41px;
+}
+
+.customerInfo ul li::marker {
+  color: #6782aa;
+  font-size: 18px;
+  border-radius: 50%; /* Để tạo thành hình tròn */
+  display: inline-block; /* Để chấm tròn không làm thay đổi dòng chữ */
+  margin-right: 5px;
+}
+
+.paymentMoney {
+  width: 166px;
+  height: 56px;
+  border: 1px solid #d6e4f0;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.paymentMoneyActive {
+  position: relative;
+  border: 1px solid #1f67d2;
+}
+
+.bgCheck {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  transform: translate(-50% -50%);
+  display: none;
+}
+
+.checkMark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50% -50%);
+  display: none;
+}
+
+.paymentMoneyActive .bgCheck,
+.paymentMoneyActive .checkMark {
+  display: block;
+}
+
+.listIntroMoney {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.listIntroMoney li::marker {
+  font-size: 12px;
+  border-radius: 50%; /* Để tạo thành hình tròn */
+  display: inline-block; /* Để chấm tròn không làm thay đổi dòng chữ */
+  margin-right: 5px;
+}
+
+.paymentsType {
+  border: 1px solid #d6e4f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 10px;
+}
+
+.paymentsTypeActive {
+  border: 1px solid #1f67d2;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.displayNone {
+  display: none;
+}

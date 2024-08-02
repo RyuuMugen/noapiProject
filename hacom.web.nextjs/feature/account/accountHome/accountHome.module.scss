@@ -1,0 +1,41 @@
+// style for account home
+.main {
+  margin: 0px 0px 100px 0px;
+}
+.mainInfo {
+  width: calc(100% - 487px);
+  background-color: #fff1f1;
+  min-height: 460px;
+  border-radius: 10px;
+  padding: 50px;
+  margin-right: 30px;
+  &Top {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .mainInfoItem {
+    text-align: center;
+    width: calc(100% / 3);
+  }
+}
+.slideBanner {
+  width: 457px;
+}
+.infoMiddle {
+  &Item {
+    text-align: center;
+    width: calc(100% / 3);
+    padding: 40px 40px 57px;
+    border-radius: 12px;
+  }
+}
+.bottomNewsList {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  height: 20rem;
+  .bottomNewsItem {
+    width: calc(25% - 5px);
+    height: 100%;
+  }
+}

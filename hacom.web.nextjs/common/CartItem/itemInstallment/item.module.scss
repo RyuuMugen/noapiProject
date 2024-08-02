@@ -1,0 +1,225 @@
+.infobox {
+  padding-top: 20px;
+}
+.voucher {
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-top: 1px;
+}
+.boxul {
+  ul li::marker {
+    color: #6782aa;
+  }
+  ul > li > div {
+    margin-left: -5px;
+  }
+}
+
+.voucher2 {
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 8px;
+  margin-left: 55px;
+}
+.boxul2 {
+  margin-left: 55px;
+  ul li::marker {
+    color: #6782aa;
+  }
+  ul > li > div {
+    margin-left: -5px;
+  }
+}
+
+.moreinfo {
+  background-color: #f3f8ff;
+  border-radius: 8px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.moreinfoitem {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: fit-content;
+}
+.moreinfoitem:not(:last-child) {
+  border-right: 1px solid #beccdf;
+}
+.moreinfoitem > p {
+  padding-left: 10px;
+  padding-right: 15px;
+  margin: 0;
+  font-size: 13px;
+  color: #485d7d;
+  font-weight: 400;
+  margin-top: 1px;
+}
+.inputValue {
+  width: 39px;
+  height: 39px;
+  text-align: center;
+  border: 1px solid #d7d7d7;
+
+  /* Ẩn nút tăng/giảm */
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Webkit browsers like Safari and Chrome */
+.inputValue::-webkit-inner-spin-button,
+.inputValue::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.inputValue {
+  -moz-appearance: textfield;
+}
+.buttonPlus {
+  height: 39px;
+  width: 35px;
+  background-color: white;
+  border: 1px solid #d7d7d7;
+  border-radius: 6px 0 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonMinus {
+  height: 39px;
+  width: 35px;
+  background-color: white;
+  border: 1px solid #d7d7d7;
+  border-radius: 0px 6px 6px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonsave {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 137px;
+  height: 28px;
+}
+.buttonsave > span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #1f2123;
+}
+.more {
+  color: #0052cc;
+  font-size: 13px;
+  font-weight: 400;
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.product > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product > div:last-child {
+  display: block;
+  padding-left: 30px;
+}
+.product > div > div {
+  margin-left: 20px !important;
+  margin-right: 20px;
+}
+.table {
+  border-radius: 11px;
+  border: 1px solid #d6e4f0;
+}
+.deleteall > img {
+  margin-right: 5px;
+  margin-top: 1px;
+}
+.deletebuttom {
+  width: 65px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #c9c9c9;
+  cursor: pointer;
+}
+.deletebuttom > img {
+  margin-right: 5px;
+  margin-top: 3px;
+  margin-bottom: -1px;
+}
+.numinput > div {
+  border: 1px solid #6782aa;
+}
+.saleprice {
+  color: #ee2724;
+  font-weight: bold;
+  font-size: 20px;
+}
+.price {
+  font-weight: 400;
+  font-size: 14px;
+
+  text-decoration: line-through;
+}
+.priceSave {
+  color: #ee2724;
+  font-weight: 400;
+  font-size: 14px;
+}
+.finalPrice {
+  display: flex;
+  gap: 1%;
+}
+.percent {
+  padding: 0px 10px;
+  background: #ee2724;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.imageContainer {
+  vertical-align: top;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.productinfo {
+  vertical-align: top;
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #303841;
+  line-height: 24px;
+}
+.productbox {
+  width: 100%;
+  padding-top: 23px;
+}
+.img {
+  width: 100px;
+  cursor: pointer;
+}

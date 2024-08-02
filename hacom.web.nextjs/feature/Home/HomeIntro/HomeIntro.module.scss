@@ -1,0 +1,32 @@
+.layout {
+  width: 100%;
+  background-image: url("../../../assets/background-home-intro.png");
+  background-repeat: round;
+  height: auto;
+  .megaMenu {
+    height: auto;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 6px 6px 20px 6px #00255c1f;
+  }
+  .intro {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    padding-left: 20px;
+    border-radius: 12px;
+    height: auto;
+  }
+  margin-top: -84px;
+  padding-top: 56px;
+}
+.img {
+  border-radius: 12px;
+}
+.gridp {
+  padding: 8px;
+}
+.ship {
+  margin-top: 40px;
+}

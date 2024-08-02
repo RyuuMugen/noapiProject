@@ -1,0 +1,215 @@
+.notifications {
+  background: #202c43;
+  height: 164px;
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notificationsTitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 18px 0;
+}
+.inputForm {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+}
+.input {
+  width: 80%;
+  height: 40px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.input > div > input {
+  height: 40px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.inputButton {
+  width: 20% !important;
+  height: 40px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.showroomTitle {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333e48;
+  padding: 15px 0;
+  margin: 18px 0;
+}
+.showroomTitle::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20%;
+  background: #333;
+  margin: auto;
+}
+.showroomList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.showroomContainer {
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+.nameContainer {
+  display: flex;
+}
+.nameNumber {
+  display: inline-block;
+  background-color: #ed1b24;
+  font-weight: 700;
+  width: 31px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 3px 0 0 3px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.name {
+  background-color: #243a76;
+  padding: 0 10px;
+  line-height: 44px;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  font-weight: 700;
+  font-size: 13px !important;
+  width: calc(100% - 31px);
+  font-size: 16px;
+}
+
+.showRoomAddress {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin: 6px 0px;
+  font-size: 14px;
+}
+.showRoomAddress > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.showRoomGallery {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+}
+.showRoomGallery a {
+  color: #ed1b24 !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.showRoomGallery > a > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.showRoomAddress2 a {
+  color: #ed1b24 !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.showRoomAddress2 > a > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.showRoomAddress2 {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+}
+
+.showRoomPhone {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+  font-size: 14px;
+}
+.showRoomPhone > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.showRoomOpeningTime {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+  font-size: 14px;
+}
+.showRoomOpeningTime > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.serviceBackground {
+  background-color: rgb(245, 249, 255);
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  padding: 30px 0px;
+}
+.flexService {
+  width: 100%;
+  display: flex;
+}
+.footerService {
+  width: 24%;
+  margin-right: 1%;
+  display: flex;
+  align-items: center;
+}
+.footerService > svg {
+  height: 50px;
+  width: 50px;
+  color: #ed1b24;
+  margin-right: 5px;
+}
+.serviceContent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.serviceTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.service {
+  font-size: 13px;
+}
+.success{
+  word-wrap: break-word;
+    display: block;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    color: greenyellow;
+    font-size: 12px;
+}
+@media screen and (max-width: 1800px) {
+  .showroomContainer {
+    width: 32%;
+    margin-right: 1.333333333%;
+    margin-bottom: 20px;
+  }
+}

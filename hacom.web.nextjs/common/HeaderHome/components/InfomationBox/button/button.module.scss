@@ -1,0 +1,86 @@
+.buttonGroup {
+  padding: 0px 5px;
+
+  &:last-child {
+    padding-right: 0px;
+  }
+}
+
+.button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 90px;
+  z-index: 110;
+  height: 28px;
+  border: none;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  background: repeating-linear-gradient(
+    to right,
+    rgb(238, 55, 55) 0,
+    #00f 50%,
+    rgb(238, 55, 55) 100%
+  );
+  background-size: 200% auto;
+  background-position: 0 100%;
+  animation: 2s linear infinite forwards gradient;
+
+  span {
+    font-size: 13px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.contentBox {
+  position: fixed;
+  display: none;
+  top: 34px;
+  z-index: 151;
+  width: 95%;
+  max-height: calc(100vh - 100px);
+  overflow-y: scroll;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  padding: 25px;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+  }
+
+  &.show {
+    display: block;
+  }
+}
+
+.content {
+  max-height: calc(100vh - 100px);
+  height: 780px;
+}

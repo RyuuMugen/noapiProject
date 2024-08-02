@@ -1,0 +1,165 @@
+.headElement {
+  height: 560px;
+  background-image: url("https://w.ladicdn.com/s2250x900/5d3c13acdc09063fd1918045/header-20230628090801-xagbf.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  width: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headLine {
+  animation: flyInFromLeft 1s ease forwards;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 55px;
+}
+.bodyTitle {
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(236, 28, 36);
+  text-align: center;
+  font-size: 32px;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+.bodyItem {
+  width: 1200px;
+}
+.stepBox {
+  background-color: rgb(19, 9, 126);
+  width: 170px;
+  height: 58px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stepTitle {
+  color: white;
+  font-size: 24px;
+  margin: 0px;
+  font-weight: 500;
+  text-align: left;
+}
+.stepContent {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+.link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.linkButton {
+  background-color: rgb(236, 28, 36);
+  height: 58px;
+  width: 390px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step1Image {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 1200px;
+}
+.step1Background {
+  height: 602px;
+  background-image: url(https://w.ladicdn.com/s1550x950/5d3c13acdc09063fd1918045/image-1-20230703022233-au-9y.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+}
+
+.step2Image {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 1202px;
+}
+.step2Background {
+  height: 1700px;
+  background-image: url(https://w.ladicdn.com/s1550x2000/5d3c13acdc09063fd1918045/hoa_don_mau-1-20230703023227-7ejv1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+}
+.ContentMail {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+.mail {
+  color: rgb(236, 28, 36);
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.mail > svg {
+  margin-right: 5px;
+}
+.customerCareBox {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.customerCare {
+  background-color: rgb(236, 28, 36);
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+.customerCareBoxTitle {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.informationItem {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  margin: 10px 0px;
+}
+.informationItem > a {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-decoration: none;
+}
+.informationItem > svg {
+  margin-right: 10px;
+}
+
+@keyframes flyInFromLeft {
+  from {
+    transform: translateX(
+      -100%
+    ); /* Di chuyển văn bản ra ngoài màn hình bên trái */
+  }
+  to {
+    transform: translateX(0); /* Di chuyển văn bản đến vị trí ban đầu */
+  }
+}

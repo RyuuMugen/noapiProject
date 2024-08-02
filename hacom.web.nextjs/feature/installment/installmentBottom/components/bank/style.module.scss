@@ -1,0 +1,46 @@
+.logoImage {
+  cursor: pointer;
+  width: 115px;
+  height: 50px;
+  border: solid 1px #e1e1e1;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 90%;
+    height: 95%;
+    object-fit: contain;
+  }
+
+  &:hover {
+    border: solid 1px #ee2e24;
+  }
+}
+
+.imageActive {
+  border: solid 1px #ee2e24;
+}
+.button {
+  width: 70%;
+  height: 35px;
+  font-size: 14px;
+  text-transform: uppercase !important;
+  display: block;
+  cursor: pointer;
+  border: none;
+  font-weight: normal;
+  margin-left: 15%;
+  background: linear-gradient(-180deg, #f89406 0%, #f76b1c 100%);
+}
+.button > span > span {
+  overflow: visible;
+}
+
+.btnPayment {
+  background-color: #f03125;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  line-height: 42px;
+}

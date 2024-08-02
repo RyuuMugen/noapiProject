@@ -1,0 +1,43 @@
+@import "../../..//assets/scss/variables.scss";
+
+.main {
+  padding-top: 30px;
+  column-gap: 24px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  @media screen and (max-width: $break-point-tablet) {
+    flex-direction: column;
+    row-gap: 10px;
+    height: auto;
+    padding: 0px 20px 20px 20px;
+  }
+  @media screen and (max-width: $break-point-mobile) {
+    column-gap: 0px;
+    flex-direction: column;
+    text-align: left;
+    padding: 0;
+  }
+
+  .leftFooter {
+    justify-content: center;
+    display: flex;
+    column-gap: 10px;
+    flex: 1;
+  }
+  .mainFooter {
+    flex: 2;
+  }
+
+  .rightFooter {
+    flex: 2;
+    text-align: center;
+  }
+
+  @media screen and (max-width: $break-point-mobile) {
+    .mainFooter {
+      margin: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.grid {
+  display: flex;
+}
+.shipBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 25px;
+  height: 353px;
+  background: linear-gradient(90deg, #e5f4ff 0%, #e5f4ff 100%);
+  border-radius: 12px;
+  margin-right: 8px;
+  margin-top: 8px;
+  width: 303px;
+}
+.shipItem {
+  display: flex;
+  align-items: center;
+}
+.shipContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 10px;
+  width: fit-content;
+  span {
+    font-size: 15px;
+    line-height: 40px;
+  }
+  span:last-child {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+}
+.shipContainer {
+  padding: 0px;
+  padding-right: 10px;
+}
+.ads {
+  padding: 0px;
+  // padding-left: 10px;
+  padding-top: 8px;
+  width: calc(100% - 318px);
+}
+.image {
+  border-radius: 12px;
+}
+// .ads > div > div > button:first-child {
+//   background-color: white;
+//   opacity: 100%;
+// }
+.ads > div > div:last-child {
+  padding: 0px;
+}
+// .ads > div > div > button:last-child {
+//   background-color: white;
+//   opacity: 100%;
+// }
+.ads > div > div > button {
+  background-color: white;
+  opacity: 100%;
+}
+
+@media (max-width: 1470px) {
+  .shipBox {
+    width: 260px;
+  }
+
+  .ads {
+    width: calc(100% - 275px);
+  }
+}

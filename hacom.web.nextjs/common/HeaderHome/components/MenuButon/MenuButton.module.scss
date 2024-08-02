@@ -1,0 +1,66 @@
+.button {
+  width: 129px;
+  height: 44px;
+  position: relative;
+  background-color: #e5f0ff;
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  z-index: 101;
+  align-items: center;
+  &:hover + .megaMenu {
+    display: block;
+  }
+  padding-left: 10px;
+}
+.button > span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #103160;
+  padding-left: 5px;
+}
+.megaMenu {
+  animation: flyInFromBottom 0.2s ease forwards; /* Sử dụng animation với keyframes flyInFromBottom */
+  position: absolute;
+  display: none;
+  padding: 0px;
+  top: 52px;
+  z-index: 101;
+  width: 100%;
+  background-color: transparent;
+  &:hover {
+    display: block;
+  }
+  div {
+    border-radius: 0px;
+  }
+  div > div > div > div {
+    border-radius: 0px;
+  }
+}
+.block {
+  &:hover + .overlay {
+    display: block;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 66px;
+  left: 0;
+  width: 10000px;
+  height: 10000px;
+  background-color: rgba(0, 0, 0, 0.5); /* A semi-transparent black color */
+  z-index: 100; /* Set z-index lower than contentBox (99) to cover other elements */
+  display: none; /* Initially not visible */
+}
+@keyframes flyInFromBottom {
+  from {
+    transform: translateY(
+      60%
+    ); /* Di chuyển văn bản ra ngoài màn hình phía dưới */
+  }
+  to {
+    transform: translateY(0); /* Di chuyển văn bản đến vị trí ban đầu */
+  }
+}

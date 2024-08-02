@@ -1,0 +1,54 @@
+.input {
+    width: 314px;
+}
+
+.input>label {
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #1f2123;
+}
+
+.input>div>input {
+    height: 42px;
+    border-radius: 6px;
+    border: 1px solid #BDBDBD;
+}
+
+.title {
+    width: 638px;
+    height: 66px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.title>span {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #1f2123;
+    display: block;
+    text-align: center;
+}
+
+.button {
+    width: 143px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #1F67D2;
+}
+
+.button>span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1f2123;
+}

@@ -1,0 +1,27 @@
+.linkCategory {
+  background-color: #e3eeff;
+  border: 1px solid #bdcbe3;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #1f2123;
+  line-height: 36px;
+  border-radius: 6px;
+  cursor: pointer;
+  &:hover {
+    background-color: #1f67d2;
+    border-color: #1f67d2;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.activeLinkCategory {
+  background-color: #1f67d2;
+  border-color: #1f67d2;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #bdcbe3;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 36px;
+  border-radius: 6px;
+}

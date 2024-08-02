@@ -1,0 +1,19 @@
+.button {
+  width: fit-content;
+  height: 20px;
+  background-color: #d9d9d9;
+  border-radius: 90px;
+  color: black;
+  border: none;
+  margin-right: 40px;
+}
+.button span {
+  font-size: 14px;
+}
+.button > span > img {
+  max-width: 18px;
+  height: 18px;
+  margin-left: 4px;
+  padding-top: 7px;
+}
+

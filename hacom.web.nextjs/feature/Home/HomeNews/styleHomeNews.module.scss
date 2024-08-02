@@ -1,0 +1,9 @@
+.flexBox {
+  display: flex;
+  gap: 10px;
+  height: 22rem;
+  margin-bottom: 40px;
+  .flexItem {
+    width: calc(25% - 5px);
+  }
+}

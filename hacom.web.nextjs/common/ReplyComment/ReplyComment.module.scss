@@ -1,0 +1,68 @@
+.replyWrap {
+  position: relative;
+  background-color: #ebf0f8;
+  border-radius: 8px;
+  padding-left: 20px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.replyWrap::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 0 0; /* Điều chỉnh giá trị để tạo hình tam giác */
+  border-color: #f0f0f0 transparent transparent transparent; /* Màu sắc của tam giác, nên trùng với màu nền của replyWrap */
+}
+
+.avtbox {
+  height: 60px;
+  width: 60px;
+  font-size: 24px;
+  color: #3a506d;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.chat {
+  margin: 20px 10px;
+  padding-bottom: 10px;
+
+  .name {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .date {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+  }
+  .comment {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f2123;
+  }
+}
+.imgbox {
+  height: 78px;
+}

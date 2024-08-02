@@ -1,0 +1,43 @@
+.lists {
+  width: 90%;
+  margin: 0 auto;
+}
+.keyClick {
+  border-bottom: 2px solid #e1e1e1;
+  font-weight: 700;
+  font-size: 20px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e1e1e1;
+}
+.linkList {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  a {
+    font-size: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333e48;
+  }
+}
+.childTitle {
+  margin-top: 40px;
+}
+.mainTitle {
+  display: inline-block;
+  font-size: 24px;
+  color: #3c4a65;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #3c4a65;
+}
+.brandList {
+  width: 90%;
+  margin: 40px auto;
+}

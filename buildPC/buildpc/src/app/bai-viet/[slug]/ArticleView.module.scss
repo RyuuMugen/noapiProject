@@ -1,0 +1,51 @@
+@media (min-width: 700px) {
+  .flexBox {
+    margin: 20px 0;
+    padding: 20px 0;
+    gap: 20px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .leftBox {
+    width: calc(70% - 10px);
+    background-color: white;
+    border-radius: 12px;
+  }
+  .rightBox {
+    width: calc(30% - 10px);
+    //   background-color: white;
+    border-radius: 12px;
+    padding: 10px 10px;
+    height: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .flexBox {
+    margin: 20px 0;
+    padding: 20px 0;
+    gap: 20px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .leftBox {
+    background-color: white;
+    border-radius: 12px;
+  }
+  .rightBox {
+    //   background-color: white;
+    border-radius: 12px;
+    padding: 10px 10px;
+    height: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+}

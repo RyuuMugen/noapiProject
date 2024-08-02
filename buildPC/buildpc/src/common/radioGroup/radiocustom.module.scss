@@ -1,0 +1,43 @@
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 3%;
+  padding-left: 10px;
+}
+.checkboxButton {
+  cursor: pointer;
+  border: 1px solid #849cb7;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 26px;
+  height: 28px;
+  margin: 0px 3px;
+}
+.title {
+  padding-right: 10px;
+}
+.checkboxButton.selected {
+  background-color: #1f67d2;
+  border: 1px solid transparent;
+}
+
+.checkboxButton:not(.selected):hover {
+  background-color: #eee;
+}
+
+.checkboxButton:not(.selected):focus {
+  outline: none;
+}
+
+.checkboxButton:not(.selected):active {
+  background-color: #fff;
+}
+
+.imageSelected {
+  filter: invert(100%) brightness(1000%);
+}
+
+.checkboxButton > img {
+  padding-top: 4px;
+}

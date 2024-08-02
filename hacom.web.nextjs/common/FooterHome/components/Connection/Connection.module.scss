@@ -1,0 +1,65 @@
+.main div {
+  display: flex;
+  align-items: center;
+  color: #787878;
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  span:hover {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.main div img {
+  margin-right: 14px;
+}
+
+.hotline {
+  margin-top: 30px;
+  span {
+    color: #f43453;
+  }
+}
+
+.email {
+  margin-top: 15px;
+  span {
+    cursor: pointer;
+    color: #0052cc;
+  }
+}
+
+.contact {
+  margin-top: 35px;
+}
+
+.contact img {
+  cursor: pointer;
+}
+
+.certificate img {
+  cursor: pointer;
+  margin-top: 55px;
+  margin-right: 20px;
+}
+.contact img:hover {
+  transform: scale(1.1);
+}

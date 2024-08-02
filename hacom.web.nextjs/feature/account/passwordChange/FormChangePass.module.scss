@@ -1,0 +1,17 @@
+//style for change password
+.formChange {
+  max-width: 400px;
+  margin: 100px auto;
+  .btnChangePass {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.spaceBottom {
+  margin-bottom: 20px;
+}

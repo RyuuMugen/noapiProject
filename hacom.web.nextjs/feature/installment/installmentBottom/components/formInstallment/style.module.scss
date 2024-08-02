@@ -1,0 +1,40 @@
+.radioGroup {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+.radioGroup > div > div > div > label {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #6942f5;
+  cursor: pointer;
+}
+.button {
+  margin: 20px 0;
+  width: 100%;
+  border-radius: 5px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ee2e24),
+    to(#ff4f2d)
+  );
+  background: linear-gradient(90deg, #ee2e24, #ff4f2d);
+  color: #fff;
+  padding: 8px 0px;
+  text-align: center;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  span {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

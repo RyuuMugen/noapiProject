@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: contain;
+  object-position: center;
+  gap: 10px;
+}
+
+.card {
+  width: 170px;
+  height: 36.34px;
+  border: 1px solid #c5daec;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title {
+  font-size: 14px;
+  margin: 0;
+  color: #42464e;
+  font-weight: 500;
+}
+
+.circleIcon {
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  object-fit: contain;
+}
+.hightlight {
+  font-size: 16px;
+  color: #f43453;
+  font-weight: 700;
+}

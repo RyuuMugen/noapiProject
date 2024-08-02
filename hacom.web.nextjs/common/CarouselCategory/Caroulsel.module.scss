@@ -1,0 +1,39 @@
+.carousel {
+  height: 80%;
+}
+.indicator {
+  width: 12px;
+  height: 4px;
+  transition: width 250ms ease;
+
+  &[data-active] {
+    width: 40px;
+  }
+}
+.control {
+  background: none;
+  color: black;
+  border: none;
+}
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-size: cover;
+  background-position: center;
+}
+.card > img {
+  height: 100%;
+  width: 100%;
+}
+.control {
+  border: none !important;
+  background: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  background: rgba(255, 255, 255, 0.3);
+}

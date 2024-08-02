@@ -1,0 +1,168 @@
+.box {
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 6px 20px 0px #00317b24;
+  border-radius: 12px;
+  margin: 2px 20px 30px 12px;
+  z-index: 80;
+  position: sticky;
+  // top: 5%;
+}
+.box2 {
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 6px 20px 0px #00317b24;
+  border-radius: 12px;
+  margin-top: 2px;
+  margin-right: 20px;
+  margin-left: 12px;
+  z-index: 100;
+}
+.content {
+  padding: 30px;
+}
+.title > p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f2123;
+  margin-top: 0px;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1f2123;
+  line-height: 30px;
+}
+.val {
+  font-size: 14px;
+  color: #1f2123;
+  line-height: 30px;
+}
+.pricebox {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 20px;
+}
+.salecodebox {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.salecodebox > span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f2123;
+}
+.input {
+  border: none;
+  background-color: white;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 8px 0px 0px 8px;
+  &:focus {
+    border-color: transparent; // Đặt màu độ trong suốt để ẩn viền
+    outline: none; // Loại bỏ đường viền mặc định khi được chọn
+  }
+}
+.input::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  color: #a3a3a3;
+}
+.inputbutton {
+  border: none;
+  border-left: 1px solid #e7e7e7;
+  background-color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1f2123;
+  width: 50%;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+.inputgroup {
+  margin-top: 5px;
+  border: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  border-radius: 8px;
+}
+.orderprice {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #1f2123;
+}
+.orderbox {
+  padding-top: 20px;
+}
+.orderbox2 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.orderbox3 {
+  padding-top: 0px;
+}
+.orderbox4 {
+  padding: 0;
+}
+.orderbutton {
+  height: 44px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  border-radius: 8px;
+  background-color: #f43453;
+  text-transform: uppercase;
+}
+
+.infoTitle {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.infoSpan {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.btnQuote {
+  background-color: #243a76;
+  height: 40px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.voucherBox {
+  span {
+    color: #f43453;
+  }
+}

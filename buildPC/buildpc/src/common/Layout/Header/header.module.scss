@@ -1,0 +1,111 @@
+@import "../../..//assets/scss/variables.scss";
+
+.main {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding: 0 20px;
+  align-items: center;
+  @media screen and (max-width: $break-point-mobile) {
+    padding: 0;
+  }
+}
+.logo {
+  filter: invert(1);
+}
+@media screen and (max-width: $break-point-tablet) {
+  .itemTablet {
+    display: none;
+  }
+}
+
+.buildPC {
+  .badge {
+    position: relative;
+    right: 10px;
+    top: -10px;
+    padding: 2px 5px;
+    height: 20px;
+    color: rgb(255, 255, 1);
+    background-color: black;
+    border-radius: 50%;
+    background: repeating-linear-gradient(
+      to right,
+      rgb(238, 55, 223) 0,
+      rgb(111, 12, 136) 50%,
+      rgb(238, 55, 223) 100%
+    );
+    background-size: 200% auto;
+    background-position: 0 100%;
+    animation: 2s linear infinite forwards gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .badgeText {
+      display: flex;
+      font-size: 0.8em;
+    }
+
+    .badgeText span {
+      display: inline-block;
+      animation: wave 1.5s infinite;
+    }
+
+    .badgeText span:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    .badgeText span:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+
+    .badgeText span:nth-child(3) {
+      animation-delay: 0.2s;
+    }
+  }
+}
+
+.itemTablet {
+  width: 40%;
+  overflow: hidden;
+  white-space: nowrap;
+  div {
+    display: inline-block;
+    animation: marquee 14s linear infinite;
+  }
+}
+.textItem {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@keyframes wave {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

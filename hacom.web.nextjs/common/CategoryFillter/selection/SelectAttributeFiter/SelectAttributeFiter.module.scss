@@ -1,0 +1,13 @@
+// .selectBox {
+//   width: calc(100% / 8);
+//   @media only screen and (max-width: 1400px) and (min-width: 901px) {
+//     width: calc(100% / 6);
+//   }
+//   @media only screen and (max-width: 900px) {
+//     width: calc(100% / 4);
+//   }
+// }
+.dropdown {
+  max-width: 300px;
+  width: fit-content;
+}

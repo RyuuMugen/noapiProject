@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.responsiveMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .detail {
+    display: none;
+  }
+  .avatar:hover {
+    .loginBox {
+      display: block;
+    }
+  }
+  .loginBox:hover {
+    display: block;
+  }
+}
+.loginBox {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 0px 30px 0px #0000001f;
+  position: absolute;
+  padding: 10px;
+  z-index: 2;
+  display: none;
+  margin-top: -10px;
+}
+.avatar {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.detail {
+  color: #ffffff;
+}
+
+.welcome {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003f9c;
+}
+
+.action {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #003f9c;
+}
+
+.action span {
+  cursor: pointer;
+  font-family: Roboto;
+}

@@ -1,0 +1,31 @@
+.link {
+  padding: 15px 0px;
+}
+.link span {
+  // padding: 0px 15px 0px 15px;
+  padding: 0px 10px;
+}
+.link a {
+  color: #0052cc;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-decoration: none;
+}
+.link a:last-child {
+  font-weight: bold;
+}
+
+.product h1 {
+  color: #1f67d2;
+  line-height: 42.19px;
+}
+.product h1 span {
+  font-size: 14px;
+  color: #787878;
+  line-height: 16.41px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.product {
+  border-bottom: 1px solid #bdd0e0;
+}

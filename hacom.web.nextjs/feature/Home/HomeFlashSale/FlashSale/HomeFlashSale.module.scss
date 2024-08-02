@@ -1,0 +1,56 @@
+.tag > div > p {
+  color: white;
+}
+.tag > div > svg {
+  stroke: white;
+  width: 20px;
+  height: 25px;
+}
+.box {
+  width: 100%;
+}
+.button {
+  background: repeating-linear-gradient(
+    to right,
+    rgb(105, 140, 255) 0%,
+    rgb(0, 17, 255) 50%,
+    rgb(105, 140, 255) 100%
+  );
+  animation: gradient 4s linear infinite forwards;
+  background-size: 200% auto;
+  background-position: 0 100%;
+  width: 30%;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 800;
+  min-width: 250px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+.allTag {
+  font-weight: 700;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,107 @@
+.boxCategories {
+  flex-wrap: wrap;
+
+  .linkCategory {
+    background-color: #e3eeff;
+    border: 1px solid #bdcbe3;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #1f2123;
+    line-height: 36px;
+    border-radius: 6px;
+  }
+}
+.pagination {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.nullBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.card {
+  max-height: 320px;
+}
+
+.leftTopBox {
+  border-radius: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+  .contentBox {
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 12px 12px;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .title {
+      font-size: 1.2em;
+      font-weight: 700;
+      color: #fff;
+    }
+    .summary {
+      font-size: 1em;
+      font-weight: 500;
+      color: #fff;
+    }
+  }
+}
+.moreButton {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+@media (min-width: 1201px) {
+  .bottomBox {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    .bottomBoxLeft {
+      width: calc(100%);
+      .card {
+        width: calc(25% - 10px);
+      }
+    }
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .bottomBox {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    .bottomBoxLeft {
+      width: calc(100%);
+      .card {
+        width: calc(100% / 3 - 10px);
+      }
+    }
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .card {
+    width: calc((100% / 3) - 10px);
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .card {
+    width: calc((100% / 2) - 10px);
+  }
+}
+@media screen and (max-width: 400px) {
+  .card {
+    width: calc((100%));
+  }
+}

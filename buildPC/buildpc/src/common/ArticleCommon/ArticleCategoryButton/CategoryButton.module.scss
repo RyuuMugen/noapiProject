@@ -1,0 +1,85 @@
+@media (min-width: 1200px) {
+  .button {
+    background-color: #e3eeff;
+    border: 1x solid #bdcbe3;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #1f2123;
+    line-height: 36px;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(255, 213, 193);
+      border-color: rgb(241, 67, 67);
+      color: rgb(238, 77, 45);
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+
+  .activebutton {
+    background-color: rgb(255, 213, 193);
+    border: 1x solid rgb(241, 67, 67);
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(238, 77, 45);
+    line-height: 36px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .button {
+    width: max-content;
+    background-color: #e3eeff;
+    border: 1x solid #bdcbe3;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f2123;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    &:hover {
+      background-color: rgb(255, 213, 193);
+      border-color: rgb(241, 67, 67);
+      color: rgb(238, 77, 45);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .content {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .activebutton {
+    width: max-content;
+    background-color: rgb(255, 213, 193);
+    border: 1x solid rgb(241, 67, 67);
+    padding: 0 5px;
+    font-size: 10px;
+    color: rgb(238, 77, 45);
+    line-height: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    .content {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.linkBox {
+  border-right: 1px solid #ff8397;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+.link > span {
+  padding-left: 5px;
+  color: #ffffff;
+}
+.hidden {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+.linkItem {
+  border-top: 1px solid #e8e8e8;
+  color: #333e48;
+  padding: 10px 0;
+}
+.linkItem:first-child {
+  border-top: none;
+}
+.dropDownBox {
+  box-shadow: #000 0 6px 12px 0 !important;
+}
+.linkItemSrc {
+  text-decoration: none;
+  color: #333e48;
+  cursor: pointer;
+}

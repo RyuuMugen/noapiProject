@@ -1,0 +1,31 @@
+.headerBox {
+  width: 100%;
+  height: 565px;
+  background-image: url(https://hanoicomputercdn.com/media/lib/07-08-2023/bg_header.png);
+  background-repeat: repeat;
+  background-position: center;
+}
+.header {
+  overflow: hidden;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerTitle {
+  width: 50%;
+  float: left;
+}
+.headerTitle > img {
+  float: right;
+}
+.headerImage {
+  width: 46%;
+  float: right;
+}
+
+.map {
+  background-color: #ec1c24;
+  min-height: 680px;
+  padding: 20px;
+}

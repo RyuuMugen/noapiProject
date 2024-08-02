@@ -1,0 +1,98 @@
+.metaTitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #303841;
+}
+
+.promotion {
+  height: 140px;
+  padding: 13px 0 20px 0;
+  span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f2123;
+  }
+  ul li::marker {
+    color: #6782aa;
+  }
+  ul > li > div {
+    margin-left: -10px;
+  }
+  .promotionPrice {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.voucher {
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 8px;
+}
+.text {
+  margin-top: 1px;
+}
+
+.actionContents {
+  background-color: #f3f8ff;
+  margin: 8px 0;
+  border-radius: 12px;
+  width: fit-content;
+  display: flex;
+}
+
+.actionContent {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  gap: 10px;
+  p {
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 13px;
+    color: #485d7d;
+    padding: 13px 25px 13px 0;
+    border-right: 1px solid #beccdf;
+  }
+}
+
+.actionContent:last-child > p {
+  border: none;
+}
+.actionContent:hover {
+  background-color: #e3efff;
+  p {
+    color: #2578f2;
+    font-weight: 700;
+  }
+}
+
+.priceAfter {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.priceBefore {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #787878;
+  text-decoration: line-through;
+}

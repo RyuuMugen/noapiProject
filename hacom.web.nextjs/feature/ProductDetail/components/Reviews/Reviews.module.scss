@@ -1,0 +1,176 @@
+.main {
+  position: relative;
+  height: max-content;
+  // border: 1px solid #d1ddec;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.title {
+  p {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f2123;
+  }
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 30px;
+  justify-content: space-between;
+
+  .rightForm {
+    height: 100%;
+    p {
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 46px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #787878;
+    }
+
+    button {
+      background-color: #1f67d2;
+      width: 100%;
+      border-radius: 8px;
+      span {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.form > div {
+  padding-left: 40px;
+}
+.form > div:first-child {
+  padding-left: 0;
+}
+.bgRate {
+  width: 331px;
+  height: 5px;
+  border-radius: 12px;
+  background-color: #e3e3e3;
+}
+
+.writeReview {
+  p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f2123;
+    margin-bottom: -10px;
+  }
+
+  button {
+    background-color: #1f67d2;
+    width: 215px;
+    height: 42px;
+    border-radius: 8px;
+
+    span {
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      font-size: 16px;
+    }
+  }
+}
+
+.review {
+  padding: 30px 25px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 0px #004fc51f;
+
+  .checkTitle {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4ea11a;
+  }
+
+  .iconCheckBg {
+    background-color: #4ea11a;
+    border-radius: 50%;
+    color: #ffffff;
+  }
+
+  .name {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .date {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+  }
+  .commentbox {
+    padding-top: 3px;
+  }
+  .comment {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f2123;
+    padding-top: 3px;
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+}
+
+.seeMore {
+  cursor: pointer;
+  color: #0052cc;
+  margin: 0 30px 30px 30px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.seeMoretext {
+  font-size: 14px;
+}
+.seeMore > svg {
+  padding-top: 2px;
+}
+.text {
+  font-size: 14px;
+}
+.form > div:nth-child(2) > div {
+  padding-bottom: 9px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+}

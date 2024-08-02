@@ -1,0 +1,89 @@
+.main {
+  width: 100%;
+  height: 106px;
+  // background-color: blueviolet;
+}
+
+.extraCard {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.content {
+  position: relative;
+  width: 14vw;
+  height: 88px;
+  border-radius: 12px;
+  // margin: 8px;
+  padding: 8px;
+  background-color: #deeffd;
+  border: 0.5px solid #c3d5ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contentTitle {
+  cursor: pointer;
+  width: 150px;
+  text-transform: uppercase;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+
+.content:hover {
+  .contentTitle {
+    color: #ec1c24;
+  }
+}
+
+.extra {
+  cursor: pointer;
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  border-radius: 12px;
+  padding-left: 5px;
+}
+
+.extra p {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.extra svg {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #cd1a24;
+  color: #ffffff;
+}
+
+.extra:hover {
+  background-color: #cd1a24;
+  color: #ffffff;
+  svg {
+    background-color: #ffffff;
+    color: #cd1a24;
+  }
+}
+
+.contentTitle,
+.extra {
+  z-index: 2;
+}
+
+.image {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  z-index: 0;
+  mix-blend-mode: darken;
+}

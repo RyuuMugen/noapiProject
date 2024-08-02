@@ -1,0 +1,114 @@
+.option {
+  background-image: url("../../../assets/background-014.png");
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #1f2123;
+  margin-bottom: 12px;
+}
+.tablist {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topic {
+  cursor: pointer;
+  width: 120px;
+  height: 45px;
+  background-color: #e7f5ff;
+  text-align: center;
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b3c4a;
+  }
+}
+.topicWrap {
+  box-shadow: 0px -4px 8px 0px #00569414;
+  margin-top: 25px;
+}
+.topicWrap > div:first-child {
+  border-top-left-radius: 8px;
+}
+
+.topicWrap > div:last-child {
+  border-top-right-radius: 8px;
+}
+
+.topicActive {
+  border-top: 4px solid #1f67d2;
+  border-bottom: none;
+  background-color: #ffffff;
+  p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1f67d2;
+  }
+}
+
+.search {
+  margin-top: 30px;
+  width: 480px;
+}
+.content {
+  width: 93%;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: #e7f5ff;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button {
+  height: 39px;
+  border-radius: 6px;
+  padding: 1px 20px 1px 20px;
+  background-color: #e3eeff;
+  border: 1px solid #bdcbe3;
+  margin: 10px;
+  p {
+    font-size: 14px;
+    color: #1f2123;
+  }
+}
+.buttonActive {
+  height: 39px;
+  border-radius: 6px;
+  padding: 1px 20px 1px 20px;
+  background-color: #1f67d2;
+  border: 1px solid #bdcbe3;
+  margin: 10px;
+  p {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+  }
+}
+
+.itemlist {
+  width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 40px;
+}
+.form {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

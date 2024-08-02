@@ -1,0 +1,16 @@
+.box {
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box > img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.content {
+  margin-top: 20px;
+  width: 250px;
+  margin-bottom: 30px;
+}

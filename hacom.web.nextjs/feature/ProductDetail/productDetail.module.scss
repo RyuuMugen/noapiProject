@@ -1,0 +1,19 @@
+.headerTitle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.contentBox {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  .contentBoxLeft {
+    width: calc(60% - 10px);
+  }
+  .contentBoxRight {
+    width: calc(40% - 10px);
+  }
+}

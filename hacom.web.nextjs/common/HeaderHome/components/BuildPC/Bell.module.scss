@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+.product {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #003f9c;
+  padding-left: 5px;
+}
+.responsiveMain {
+  display: flex;
+  align-items: center;
+  .product {
+    display: none;
+  }
+}

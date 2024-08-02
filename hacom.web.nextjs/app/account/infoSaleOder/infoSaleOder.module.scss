@@ -1,0 +1,95 @@
+.title {
+  color: #1f67d2;
+  cursor: pointer;
+}
+.cancel {
+  color: #d2491f;
+  cursor: pointer;
+}
+
+.imageContainer {
+  vertical-align: top;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.img {
+  width: 80px;
+  cursor: pointer;
+}
+.textLeft {
+  text-align: left;
+}
+
+.tablerow > th {
+  color: #e91d3e;
+}
+.tablerow > td {
+  text-align: left;
+}
+.titleInfo {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0px;
+}
+.modalsBox {
+  border-radius: 12px;
+}
+.link {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+.flexBox {
+  display: flex;
+  gap: 50px;
+  div {
+    width: 50%;
+  }
+}
+.titleHeader {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+  .button {
+    background-color: #337ceb;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  .button:hover {
+    background-color: #0b47b6ce;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+  }
+}
+.trBorder {
+  border-bottom: none;
+  th {
+    font-weight: 500;
+    padding: 2px;
+  }
+  th:last-child {
+    font-weight: 700;
+  }
+}
+.address {
+  width: 200px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

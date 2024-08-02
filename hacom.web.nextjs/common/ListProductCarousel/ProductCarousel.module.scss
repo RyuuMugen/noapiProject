@@ -1,0 +1,22 @@
+.main {
+  height: 432px;
+  border-left: 0.5px solid #d3def0;
+  border-right: 0.5px solid #d3def0;
+  border-radius: 12px;
+}
+.control {
+  width: 40px;
+  height: 90px;
+  background: rgba(255, 255, 255, 0.3);
+  // background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.main > div > div:last-child > button:first-child {
+  border-radius: 0 100% 100% 0;
+  margin-top: -2%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.main > div > div:last-child > button:last-child {
+  border-radius: 100% 0 0 100%;
+  margin-top: -2%;
+  background-color: rgba(0, 0, 0, 0.45);
+}

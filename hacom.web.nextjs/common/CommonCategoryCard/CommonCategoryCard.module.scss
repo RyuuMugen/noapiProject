@@ -1,0 +1,79 @@
+.main {
+  width: 277px;
+  height: 482px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: rgb(0, 0, 0) 10px 10px 20px -15px;
+  @media screen and (max-width: 1400px) {
+    width: 100%;
+  }
+}
+
+.image {
+  @media screen and (max-width: 1400px) {
+    width: 100%;
+  }
+
+  background-repeat: round;
+  width: 277px;
+  height: 482px;
+  transition: transform 0.2s ease;
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(rgba(0, 24, 108, 0.76), rgba(0, 41, 204, 0.76));
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  transition: "bottom 0.3s ease, transform 0.3s ease";
+  width: 180px;
+}
+
+.main:hover .image {
+  transform: scale(1.05);
+}
+
+.main:hover .image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(rgba(0, 24, 108, 0.7), rgba(14, 6, 170, 0.993));
+  opacity: 0.76;
+  transition: opacity 0.3s ease;
+}
+
+.main:hover .title {
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+  background-color: #f43453;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 700;
+}

@@ -1,0 +1,76 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  object-fit: contain;
+  object-position: center;
+  gap: 45px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 140px;
+  height: 120px;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 1px solid #8bb1ea;
+  border-radius: 12px;
+  background-color: #f2f7ff;
+
+  .title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1f67d2;
+  }
+  .updateBox {
+    display: block;
+  }
+}
+
+.content {
+  margin-top: 20px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+}
+
+.circleIcon {
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.hightlight {
+  font-size: 16px;
+  color: #f43453;
+  font-weight: 700;
+}
+.updateBox {
+  width: 140px;
+  height: auto;
+  display: none;
+}

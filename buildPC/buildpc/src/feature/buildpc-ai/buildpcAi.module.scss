@@ -1,0 +1,77 @@
+@import "../../assets/scss/variables.scss";
+
+@media screen and (max-width: $break-point-tablet) {
+  .parameterProduct {
+    width: 864px;
+  }
+  .buildpcAi {
+    width: 448px;
+  }
+}
+@media screen and (max-width: $break-point-mobile) {
+  .buildpcAi {
+    padding: 0 10px;
+  }
+
+  .parameterProduct {
+    width: auto;
+  }
+}
+
+.listItem {
+  @media screen and (max-width: $break-point-mobile) {
+    width: 100%;
+  }
+  border: 1px solid #cad7eb;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  .itemConfig {
+    border-bottom: 1px solid #cad7eb;
+    padding: 14px 20px;
+    align-items: center;
+    justify-content: space-between;
+    .typeBox {
+      width: 18%;
+      @media screen and (max-width: $break-point-tablet) {
+        width: 8%;
+        word-break: break-word;
+      }
+      @media screen and (max-width: $break-point-mobile) {
+        width: 20%;
+        word-break: break-word;
+      }
+    }
+    .nameBox {
+      width: 62%;
+      gap: 15px;
+      .image {
+        width: 52px;
+        height: 52px;
+      }
+      @media screen and (max-width: $break-point-tablet) {
+        width: 74%;
+      }
+      @media screen and (max-width: $break-point-mobile) {
+        width: 74%;
+        gap: 10px;
+        .image {
+          width: 42px;
+          height: 42px;
+        }
+      }
+    }
+
+    .actionBox {
+      width: 20%;
+      @media screen and (max-width: $break-point-tablet) {
+        width: 18%;
+      }
+      @media screen and (max-width: $break-point-mobile) {
+        width: 16%;
+      }
+    }
+  }
+}

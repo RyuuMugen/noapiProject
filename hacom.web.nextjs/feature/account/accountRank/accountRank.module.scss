@@ -1,0 +1,263 @@
+.blockRankTop {
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 0px #0000001f;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 40px;
+  &Inner {
+    flex: 1;
+  }
+  .infoIsRank {
+    width: 32%;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .infoRankDetail {
+    width: 68%;
+    padding: 60px 150px;
+    .rankProcessBar {
+      margin-top: 65px;
+      margin-bottom: 18px;
+      &Outer {
+        background-color: #aaa;
+        border-radius: 25px;
+        position: relative;
+        text-align: right;
+        &::before,
+        &::after {
+          content: "";
+          display: inline-block;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          background-color: #e11b1e;
+          position: absolute;
+          top: -75%;
+        }
+        &::before {
+          left: -10px;
+          z-index: 1;
+        }
+        &::after {
+          right: -10px;
+        }
+      }
+      &Inner {
+        background-color: #e11b1e;
+        border-radius: 25px;
+        height: 6px;
+        text-align: right;
+        width: 30%;
+      }
+      &Flag {
+        height: 3px;
+        position: absolute;
+        right: -20px;
+        top: -35px;
+      }
+    }
+  }
+}
+.blockRankBottom {
+  width: 70%;
+  margin: 0 auto;
+  .tabsRankConditional {
+    width: 100%;
+    .tabListRank {
+      flex-wrap: nowrap;
+      .tabTitle {
+        text-align: center;
+        width: calc(100% / 4);
+        .imageRank {
+          height: 80px;
+          width: 80px;
+          background-color: #d7d7d7;
+          border-radius: 50%;
+          text-align: center;
+          margin: 0 auto 15px;
+          img {
+            transform: translateY(25%);
+          }
+        }
+        span {
+          color: #aaaaaa;
+          font-size: 16px;
+        }
+        &[data-active] {
+          border-color: #dee2e6;
+          span {
+            font-weight: 700;
+          }
+          &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            display: inline-block;
+            position: absolute;
+            bottom: -10px;
+          }
+        }
+        &:first-child {
+          &[data-active] {
+            .imageRank {
+              background-color: #677b9c;
+            }
+            span {
+              color: #677b9c;
+            }
+            &::after {
+              border-top: 10px solid #677b9c;
+            }
+          }
+        }
+        &:nth-child(2) {
+          &[data-active] {
+            .imageRank {
+              background-color: #ffb800;
+            }
+            span {
+              color: #ffb800;
+            }
+            &::after {
+              border-top: 10px solid #ffb800;
+            }
+          }
+        }
+        &:nth-child(3) {
+          &[data-active] {
+            .imageRank {
+              background-color: #50b65e;
+            }
+            span {
+              color: #50b65e;
+            }
+            &::after {
+              border-top: 10px solid #50b65e;
+            }
+          }
+        }
+        &:nth-child(4) {
+          &[data-active] {
+            .imageRank {
+              background-color: #566ba4;
+            }
+            span {
+              color: #566ba4;
+            }
+            &::after {
+              border-top: 10px solid #566ba4;
+            }
+          }
+        }
+      }
+    }
+    .tabContent {
+      padding: 35px 0;
+      .tablePromotion {
+        border: 1px solid #f43453;
+        border-radius: 12px;
+        .tableTitle {
+          background-color: #f43453;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 8px 30px;
+          border-radius: 12px 12px 0 0;
+        }
+        .tableContent {
+          padding: 0 30px;
+          ul {
+            padding: 0;
+            list-style: none;
+            li {
+              border-bottom: 1px dashed #dcaeae;
+              padding: 7px 0;
+              &:last-child {
+                border-bottom: none;
+                padding-bottom: none;
+              }
+              &:before {
+                content: "1";
+                display: inline-block;
+                background: #f43453;
+                color: #fff;
+                font-size: 11px;
+                width: 22px;
+                height: 22px;
+                border-radius: 50%;
+                line-height: 22px;
+                text-align: center;
+                margin-right: 5px;
+              }
+              &:nth-child(2) {
+                &::before {
+                  content: "2";
+                }
+              }
+              &:nth-child(3) {
+                &::before {
+                  content: "3";
+                }
+              }
+              &:nth-child(3) {
+                &::before {
+                  content: "3";
+                }
+              }
+              &:nth-child(4) {
+                &::before {
+                  content: "4";
+                }
+              }
+              &:nth-child(5) {
+                &::before {
+                  content: "5";
+                }
+              }
+              &:nth-child(6) {
+                &::before {
+                  content: "6";
+                }
+              }
+              .highlight {
+                font-weight: 700;
+                color: #f43453;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.main {
+  margin: 0px 0px 200px 0px;
+}
+
+.rankBackground {
+  font-size: 45px;
+  background: #fff;
+  border-radius: 100%;
+
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  width: 115px;
+  height: 115px;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.imageWhite {
+  filter: grayscale(100%) brightness(1000%);
+}

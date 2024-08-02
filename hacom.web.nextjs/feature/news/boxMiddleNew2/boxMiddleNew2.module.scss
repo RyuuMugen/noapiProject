@@ -1,0 +1,36 @@
+.middleNews2 {
+  padding: 80px 0;
+  .middleNews2Left {
+    width: 60%;
+  }
+  .middleNews2Right {
+    width: 40%;
+    .middleNews2RightList {
+      flex-wrap: wrap;
+      .middleNews2RightItem {
+        width: calc(50% - 10px);
+        & > div {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.card {
+  cursor: pointer;
+  // margin-bottom: 30px;
+}
+.titleBlockNews {
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+  align-items: center;
+  .viewMore {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+    align-items: center;
+    color: rgb(18, 105, 236);
+    cursor: pointer;
+  }
+}

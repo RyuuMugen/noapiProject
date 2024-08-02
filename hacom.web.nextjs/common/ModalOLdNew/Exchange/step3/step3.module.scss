@@ -1,0 +1,119 @@
+.option {
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #1f67d2;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.tablist {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topic {
+  cursor: pointer;
+  width: 84px;
+  height: 38px;
+  background-color: #bdcbe3;
+  border: 1px solid #bdcbe3;
+  border-radius: 6px;
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1f2123;
+  }
+}
+.topicWrap {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+}
+.topicWrap > div {
+  margin-right: 20px;
+}
+
+.topicActive {
+  border-top: 4px solid #1f67d2;
+  background-color: #ffffff;
+  border: 1px solid #bdcbe3;
+  border-radius: 6px;
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1f2123;
+  }
+}
+
+// .button {
+//   height: 39px;
+//   border-radius: 6px;
+//   padding: 1px 20px 1px 20px;
+//   background-color: #e3eeff;
+//   border: 1px solid #bdcbe3;
+//   margin-left: 10px;
+// }
+// .button > p {
+//   font-size: 14px;
+//   color: #1f2123;
+// }
+.ligroup {
+  width: 680px;
+  font-size: 13px;
+  line-height: 30px;
+  color: #787878;
+}
+.ligroup:last-child {
+  line-height: 20px;
+}
+
+.button {
+  height: 39px;
+  border-radius: 6px;
+  padding: 1px 20px 1px 20px;
+  background-color: #e3eeff;
+  border: 1px solid #bdcbe3;
+  margin: 10px;
+  p {
+    font-size: 14px;
+    color: #1f2123;
+  }
+}
+.buttonActive {
+  height: 39px;
+  border-radius: 6px;
+  padding: 1px 20px 1px 20px;
+  background-color: #1f67d2;
+  border: 1px solid #bdcbe3;
+  margin: 10px;
+  p {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+  }
+}
+.search {
+  width: 50%;
+}
+.content {
+  width: 93%;
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: #e7f5ff;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

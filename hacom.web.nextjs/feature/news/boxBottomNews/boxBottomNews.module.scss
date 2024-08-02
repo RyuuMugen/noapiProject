@@ -1,0 +1,24 @@
+.bottomNews {
+  // padding: px 0;
+  .bottomNewsList {
+    height: 22rem;
+    .bottomNewsItem {
+      width: calc(25% - 5px);
+    }
+  }
+}
+
+.titleBlockNews {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 25px;
+  .viewMore {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+    align-items: center;
+    color: rgb(18, 105, 236);
+    cursor: pointer;
+  }
+}

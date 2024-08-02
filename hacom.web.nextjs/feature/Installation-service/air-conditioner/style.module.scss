@@ -1,0 +1,17 @@
+.container {
+  background: #fff;
+  border-radius: 0 10px 10px 10px;
+  padding: 2%;
+  box-sizing: border-box;
+  border-top: none;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+.box {
+  border: 1px solid #ec1c24;
+  border-radius: 10px;
+  padding: 30px 35px;
+  background: #fff;
+  margin: 50px 0 0;
+  font-size: 16px;
+}

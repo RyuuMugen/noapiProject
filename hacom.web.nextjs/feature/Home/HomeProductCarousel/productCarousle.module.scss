@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1150px) {
+  .item {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .item {
+    width: 50%;
+  }
+}

@@ -1,0 +1,94 @@
+.mainCard {
+  height: 434px;
+  border: 0.5px solid #d3def0;
+  border-radius: 12px;
+  background-color: white;
+  width: calc(25% - 10px);
+}
+
+.propertyCard {
+  position: relative;
+  cursor: pointer;
+  height: 50%;
+}
+.mainImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.name {
+  cursor: pointer;
+  padding: 0px 15px;
+}
+
+.name > p {
+  margin: 15px 0px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  min-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.prices {
+  cursor: pointer;
+  padding: 0px 15px;
+}
+.oldPrice {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6782aa;
+  text-decoration: line-through;
+}
+
+.newPrice {
+  margin-top: -5px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f67d2;
+}
+.more {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  justify-content: center;
+  gap: 5px;
+  padding: 0px 5px;
+  color: white;
+  background: repeating-linear-gradient(
+    to right,
+    rgba(237, 38, 38, 1) 0,
+    rgba(255, 138, 138, 1) 25%,
+    rgb(243, 3, 3) 50%,
+    rgba(255, 138, 138, 1) 75%,
+    rgba(237, 38, 38, 1) 100%
+  );
+  animation: 4s linear infinite forwards gradient;
+  background-size: 200% auto;
+  background-position: 0 100%;
+  border-radius: 18px;
+}
+.paddingDiv {
+  padding: 5px 0;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

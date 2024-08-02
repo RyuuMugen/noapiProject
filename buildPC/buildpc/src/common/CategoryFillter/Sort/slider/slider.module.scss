@@ -1,0 +1,41 @@
+.gridbox {
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  grid-template-columns: 14% 62% 20%;
+  gap: 10px;
+}
+.gridbox > * {
+  text-align: left;
+}
+.label {
+  padding: 0;
+  color: #787878;
+  size: 13px;
+}
+.slider > div > div > div > div > div {
+  background-color: transparent;
+  font-size: 13px;
+  color: #787878;
+}
+.slider > div > div > div > div {
+  background-color: #ee4d2d;
+}
+
+.p {
+  padding-top: 25px;
+  font-size: 14px;
+}
+.gridbox {
+  padding-right: 10px;
+}
+
+.root {
+  padding: 13px 5px 0 5px;
+}
+
+// .trackContainer {
+//   ::before {
+//     background-color: white;
+//   }
+// }

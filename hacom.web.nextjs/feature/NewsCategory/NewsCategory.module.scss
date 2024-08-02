@@ -1,0 +1,49 @@
+.message {
+  padding: 100px 0px;
+}
+.noValue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1f2123;
+  }
+
+  .customList {
+    font-size: 15px;
+    color: #1f2123;
+  }
+  .customList::before {
+    content: "\2022";
+    color: #6782aa;
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 20px;
+  }
+}
+
+.listNews {
+  gap: 10px;
+  flex-wrap: wrap;
+  display: flex;
+
+  .itemNews {
+    height: 20rem;
+    width: calc(20% - 10px);
+    // & > div {
+    //   width: 100%;
+    // }
+  }
+}
+.Main {
+  padding: 50px 0px 100px 0px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

@@ -1,0 +1,22 @@
+.infobox {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #c9c9c9;
+  background-color: #f0f0f0;
+  padding: 0px 30px;
+  color: #1f2123;
+  cursor: pointer;
+  span {
+    font-size: 15px;
+  }
+}
+.buttonAddToCart {
+  background-color: #ffeff2;
+  color: #f43453;
+  border: 1px solid #f43453;
+  border-radius: 6px;
+  padding: 0px 30px;
+  span {
+    font-size: 15px;
+  }
+}

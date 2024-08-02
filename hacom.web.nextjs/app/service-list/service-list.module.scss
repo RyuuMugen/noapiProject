@@ -1,0 +1,51 @@
+.contact {
+  background-color: #f3faff;
+  padding: 14px 0;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+.bannerTop {
+  margin: 0 auto;
+  line-height: 0;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.serviceList {
+  position: relative;
+  background-image: url("../../assets/service-bg-list.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  &Filter {
+    padding: 30px 0;
+  }
+  &Items {
+    & > div {
+      margin-right: 30px;
+      margin-bottom: 30px;
+      max-width: calc(25% - 32px);
+      flex: 1 0 25%;
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+.selectForm {
+  width: 200px;
+}
+.pagination {
+  margin-bottom: 92px;
+  & > div {
+    justify-content: center;
+  }
+}
+.mainTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #1f67d2;
+}

@@ -1,0 +1,118 @@
+.main > div > div > div:last-child > div:last-child > div:last-child {
+  margin-top: 10px;
+}
+
+.control {
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.main > div {
+  margin-right: 20px;
+}
+
+// .main > div:nth-child(6n) {
+//   margin-right: 0px;
+// }
+
+.sticky {
+  top: 65px;
+  // margin: 10px 0px;
+  background-color: transparent;
+  z-index: 90;
+  // border-bottom: 1px solid #bdd0e0;
+  border-top: 1px solid #bdd0e0;
+  padding-top: 10px;
+  .text {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+
+  .flexBox {
+    display: flex;
+    gap: 10px;
+    .selectGroup {
+      width: calc(65% - 5px);
+    }
+    .sort {
+      width: calc(35% - 5px);
+    }
+  }
+}
+
+.category {
+  top: 66px;
+  z-index: 90;
+  position: sticky;
+  // display: block;
+  background-color: white;
+  border-top: dotted black 1px;
+  box-shadow: 0px 4px 8px 0px #001d401f;
+  margin: 0px -45px;
+  padding: 10px 45px;
+}
+
+.search {
+  top: 16px;
+  z-index: 90;
+  position: sticky;
+  display: block;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px #001d401f;
+  margin: 0px -1000px;
+  padding: 0px 1000px;
+}
+
+.message {
+  background-image: url("../../../assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  background-size: 100% auto; /* Đặt chiều rộng là 100% và chiều cao tự động */
+  padding-bottom: 100px;
+}
+.noValue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1f2123;
+  }
+
+  .customList {
+    font-size: 15px;
+    color: #1f2123;
+  }
+  .customList::before {
+    content: "\2022";
+    color: #6782aa;
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 20px;
+  }
+}
+
+.box {
+  padding-top: 20px;
+}
+.image {
+  border-radius: 12px;
+  height: 205px;
+  max-width: 100%;
+}
+.fillterResult {
+  margin-bottom: 10px;
+}

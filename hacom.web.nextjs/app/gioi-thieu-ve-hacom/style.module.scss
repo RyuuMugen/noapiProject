@@ -1,0 +1,97 @@
+.title {
+  color: #ed1b24;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.category {
+  margin: 0;
+}
+.bottomLine {
+  width: 444px;
+  border: 1px solid #b7afaf;
+  margin-bottom: 20px;
+}
+.staticEqualBox {
+  display: flex;
+  margin-bottom: 15px;
+}
+.staticEqual {
+  font-weight: 700;
+}
+.staticEqualHalf {
+  width: calc(50% - 7.5px);
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.staticEqualHalfImage {
+  margin-top: 15px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.staticEqualHalfTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.staticEqualHalfSlogan {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+.staticEqualHalfExplain {
+  font-size: 14px;
+}
+.group {
+  padding-left: 25px;
+  list-style: none;
+  line-height: 2;
+}
+.group li::before {
+  content: url("../../assets/Green_Arrow_Righ.png");
+  margin-right: 5px;
+}
+.groupItem {
+  font-weight: 700;
+  display: inline-block;
+  min-width: 45px;
+}
+.diagram {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  width: 90em;
+}
+.fieldImage {
+  width: 39%;
+  display: inline-block;
+}
+.fieldImage > img {
+  max-width: 100%;
+  height: auto;
+}
+.fieldText {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+.client {
+  width: calc(50% - 7.5px);
+  display: inline-block;
+  vertical-align: middle;
+}
+.client > img {
+  max-width: 100%;
+  height: auto;
+}
+.achievements {
+  width: 95%;
+  max-width: 95%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}

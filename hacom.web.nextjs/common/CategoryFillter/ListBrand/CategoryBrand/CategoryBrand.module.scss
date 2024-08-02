@@ -1,0 +1,73 @@
+.box {
+  padding-top: 10px;
+}
+
+.brandOverflow {
+  padding: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 122px;
+  overflow-y: scroll;
+
+  .item > img {
+    mix-blend-mode: darken;
+    cursor: pointer;
+  }
+  .item {
+    border-radius: 8px;
+    padding: 10px 10px;
+    border: 1px solid #d6e4f0;
+    cursor: pointer;
+    background-color: white;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Cho phép phần tử mở rộng để lấp đầy không gian trống */
+    flex-basis: calc(
+      100% / 14 - 10px
+    ); /* Đảm bảo kích thước ban đầu cho mỗi phần tử */
+    max-width: calc(
+      100% / 14 - 10px
+    ); /* Đảm bảo không vượt quá kích thước tối đa */
+    min-width: calc(
+      100% / 14 - 10px
+    ); /* Đảm bảo phần tử không bị co lại quá mức */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item img {
+    object-fit: contain;
+    width: 95%;
+    height: 95%;
+    border-radius: 8px;
+  }
+
+  .brandActive {
+    background-color: #c3d5ee !important;
+    img {
+      scale: 1.2;
+    }
+  }
+}
+
+.brandOverflow::-webkit-scrollbar {
+  width: 8px; /* Độ rộng của thanh cuộn */
+}
+
+.brandOverflow::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Màu của thanh cuộn */
+  border-radius: 8px; /* Bo tròn viền thanh cuộn */
+}
+
+.brandOverflow::-webkit-scrollbar-thumb:hover {
+  background-color: #999; /* Màu của thanh cuộn khi hover */
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 12px;
+}

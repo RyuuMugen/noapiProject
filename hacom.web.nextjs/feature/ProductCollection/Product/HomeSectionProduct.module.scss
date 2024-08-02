@@ -1,0 +1,131 @@
+.main > div > div > div:last-child > div:last-child > div:last-child {
+  margin-top: 10px;
+}
+
+.control {
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.main > div {
+  margin-right: 20px;
+}
+
+// .main > div:nth-child(6n) {
+//   margin-right: 0px;
+// }
+
+.sticky {
+  top: 66px;
+  background-color: transparent;
+  z-index: 90;
+}
+
+.category {
+  top: 66px;
+  z-index: 90;
+  position: sticky;
+  display: block;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px #001d401f;
+  margin: 0px -400px;
+  padding: 0px 400px;
+  div > span {
+    // visibility: hidden;
+    // display: none;
+  }
+}
+
+.search {
+  top: 66px;
+  z-index: 90;
+  position: sticky;
+  display: block;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px #001d401f;
+  margin: 0px -1000px;
+  padding: 0px 1000px;
+}
+
+.message {
+  // padding-top: 30px;
+  padding-bottom: 100px;
+}
+.noValue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1f2123;
+  }
+
+  .customList {
+    font-size: 15px;
+    color: #1f2123;
+  }
+  .customList::before {
+    content: "\2022";
+    color: #6782aa;
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 20px;
+  }
+}
+
+.contentText {
+  // width: 60%;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  table {
+    border-collapse: collapse; /* Đảm bảo các border sẽ nối tiếp nhau mà không tạo ra khoảng trắng */
+    margin: 20px 0px;
+  }
+
+  td,
+  th {
+    border: 1px solid black; /* Thêm border cho cả các ô trong td và th */
+    padding: 10px;
+    line-height: 1.2;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(242, 242, 242, 0.5);
+  }
+  thead,
+  tbody {
+    border: 1px solid black; /* Thêm border cho cả thead và tbody */
+    padding: 10px;
+    line-height: 1.2;
+  }
+  thead {
+    background-color: red;
+    color: white;
+  }
+  figure {
+    margin: 20px 0px;
+  }
+
+  li {
+    line-height: 1.5;
+  }
+  p {
+    line-height: 1.5;
+  }
+  a {
+    text-decoration: none;
+  }
+}

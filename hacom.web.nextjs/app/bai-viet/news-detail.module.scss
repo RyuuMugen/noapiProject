@@ -1,0 +1,20 @@
+.detail {
+  margin-bottom: 90px;
+  display: flex;
+  gap: 40px;
+  .leftBox {
+    width: calc(65% - 20px);
+  }
+  .rightBox {
+    width: calc(35% - 20px);
+    .detailRight {
+      width: 100%;
+    }
+  }
+}
+.titleNews {
+  margin-bottom: 26px;
+}
+.newsBox {
+  border-top: 1px solid #d6e4f0;
+}

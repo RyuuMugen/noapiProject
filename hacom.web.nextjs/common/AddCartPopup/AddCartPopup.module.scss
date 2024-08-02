@@ -1,0 +1,55 @@
+.btn {
+  background: red;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px #c3c3c3;
+  padding: 5px 20px;
+  border-radius: 0;
+}
+
+.bundledProductsItem {
+  margin: 10px 0;
+  width: 200px;
+  min-width: 200px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.bundledProductsItemName {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 36px;
+}
+
+.oldPrice {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6782aa;
+  margin-top: 10px;
+}
+
+.newPrice {
+  margin-top: -5px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f67d2;
+  margin-top: -2px;
+}
+
+.rightBox {
+  text-align: center;
+  width: 300px;
+  padding: 30px;
+}

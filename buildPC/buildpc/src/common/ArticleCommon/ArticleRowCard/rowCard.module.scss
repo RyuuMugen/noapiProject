@@ -1,0 +1,21 @@
+.boxItem {
+  box-shadow: 0px 4px 8px 0px #001d401f;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+  .link {
+    width: 35%;
+    height: 100%;
+    .imageThumbnail {
+      height: 100%;
+      width: 100%;
+      border-radius: 12px;
+    }
+  }
+  .contentbox {
+    width: calc(65% - 10px);
+  }
+}

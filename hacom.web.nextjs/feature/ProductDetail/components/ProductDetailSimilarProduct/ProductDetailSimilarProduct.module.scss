@@ -1,0 +1,39 @@
+.topic {
+  cursor: pointer;
+  height: 61px;
+  margin: 50px 0 0 0;
+  padding: 20px 30px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  p {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1f67d2;
+  }
+}
+
+.topicActive {
+  background-color: #1f67d2;
+  position: relative;
+  p {
+    color: #ffffff;
+  }
+}
+
+.topicActive::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%) rotate(-135deg);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 0 0; /* Điều chỉnh giá trị để tạo hình tam giác */
+  border-color: #1f67d2 transparent transparent transparent; /* Màu sắc của tam giác, nên trùng với màu nền của replyWrap */
+}
+.box {
+  width: 100%;
+}
